@@ -1,0 +1,68 @@
+# MultiCalc - Online Calculators and Converters Suite
+
+MultiCalc is a free, fast, client-side suite of interactive tools designed to help users compute financial interest, loan schedules, discounts, healthy metrics (BMI), electricity bills, travel times, and other daily math problems.
+
+## Core Information
+- **URL**: https://multicalc-online.vercel.app/
+- **Language**: Spanish (Español)
+- **Framework**: React (Vite)
+- **Aesthetics**: Premium Dark Theme, glassmorphism, responsive navigation drawer, and fully accessible keyboard layout.
+
+## Tool Directory
+
+### 1. Descuentos (Discount Calculator)
+Calculates the final discounted price and displays total monetary savings.
+- **Inputs**: Original Price (USD/EUR/$), Discount Percentage (%)
+- **Outputs**: Final Price, Total Savings
+- **Formula**: `Savings = Price * (Discount / 100)`; `FinalPrice = Price - Savings`
+
+### 2. Interés Compuesto (Compound Interest Calculator)
+Models financial growth over time with compounding frequencies.
+- **Inputs**: Initial Capital ($), Annual Interest Rate (%), Period (Years), Compounding Frequency (Annual, Quarterly, Monthly, Daily)
+- **Outputs**: Future Value, Total Compounded Interest
+- **Formula**: `A = P * (1 + r/n)^(n*t)`
+
+### 3. Conversión de Monedas (Currency Converter)
+Performs instant currency rate conversions.
+- **Inputs**: Amount, Source Currency, Target Currency
+- **Output**: Converted Amount
+- **Rates**: Standard quick rates are pre-configured, supports 150+ international currencies.
+
+### 4. IMC (Body Mass Index Calculator)
+Computes Body Mass Index (BMI) to evaluate weight health categories.
+- **Inputs**: Weight (kg), Height (cm)
+- **Outputs**: BMI score, Health Category (Underweight, Normal, Overweight, Obese)
+- **Formula**: `BMI = weight / (height_in_meters ^ 2)`
+
+### 5. Planificador de Pagos (Payment Planner)
+Helps plan monthly payments and budget allocations.
+- **Inputs**: Total Debt ($), Interest Rate (%), Term (Months)
+- **Outputs**: Monthly payment, Total interest paid.
+
+### 6. Consumo Eléctrico (Electricity Consumption Calculator)
+Calculates power usage costs of appliances.
+- **Inputs**: Appliance Power (Watts), Hours of usage per day, Electricity Cost per kWh ($)
+- **Outputs**: Daily Cost, Monthly Cost, Total Kilowatt-Hours consumed
+- **Formula**: `Daily_kWh = (Watts * Hours) / 1000`; `DailyCost = Daily_kWh * Cost_per_kWh`
+
+### 7. Ahorro Proyectado (Savings Projector)
+Tracks savings milestones and visualizes financial progression.
+- **Inputs**: Monthly Contribution ($), Annual Yield (%), Target Goal ($)
+- **Outputs**: Estimated months/years to reach target goal, total accumulated interest.
+
+### 8. Amortización de Préstamos (Loan Amortization Schedule)
+Generates a complete French amortization table showing principal and interest breakdowns.
+- **Inputs**: Loan Amount ($), Annual Interest Rate (%), Term (Months)
+- **Outputs**: Monthly payment table displaying: Month index, Principal contribution, Interest contribution, Remaining Balance.
+
+### 9. Comparador de Ofertas (Offer Comparator)
+Compares unit rates of two deals to select the best market option.
+- **Inputs**: Pack A (Price, Quantity/Volume), Pack B (Price, Quantity/Volume)
+- **Outputs**: Unit price comparison, Percentage value saved on the optimal choice.
+- **Formula**: `Unit_Price = Price / Quantity`
+
+### 10. ETA (Estimated Time of Arrival)
+Estimates travel time and arrival schedules.
+- **Inputs**: Distance (km), Speed (km/h)
+- **Outputs**: Travel Time (Hours and Minutes)
+- **Formula**: `Time = Distance / Speed`
